@@ -50,10 +50,11 @@ Dépendances: Assurez-vous d'avoir Python 3.x installé avec les packages suivan
 - Matplotlib
 - Pandas
 - NumPy
+  
 Cloner le Dépôt:
 bash
 Copier le code
-git clone https://github.com/rayane/mujoco-gui.git
+git clone https://github.com/RayaneUPEC/GUI-Robotics
 cd mujoco-gui
 Exécuter l'Application:
 bash
