@@ -1,0 +1,80 @@
+QWidget {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+QLabel {
+    font-size: 14px;
+    color: #333;
+}
+
+QPushButton {
+    background-color: #1b7ccb;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+QPushButton:hover {
+    background-color: #1976D2;
+}
+
+QPushButton:pressed {
+    background-color: #0D47A1;
+}
+
+QProgressBar {
+    text-align: center;
+    font-size: 14px;
+}
+
+QProgressBar::chunk {
+    background-color: #4CAF50;
+}
+
+QLineEdit {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+QTabWidget::pane {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+}
+
+QTabBar::tab {
+    background: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #000;
+}
+
+QTabBar::tab:selected {
+    background: #fff;
+    margin-bottom: -1px;
+    color: #000;
+}
+
+QWidget#simulation_tab, QWidget#motion_tab, QWidget#data_tab {
+    background: #fff;
+}
+
+QGroupBox {
+    font-size: 14px;
+    color: #000;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+}
+
+QTextEdit {
+    color: black;
+    background: #e0e0e0;
+}
