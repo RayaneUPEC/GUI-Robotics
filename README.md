@@ -54,18 +54,16 @@ Dépendances: Assurez-vous d'avoir Python 3.x installé avec les packages suivan
 - Pandas
 - NumPy
   
-Cloner le Dépôt:
-bash
-Copier le code
-git clone https://github.com/RayaneUPEC/GUI-Robotics
+- Cloner le Dépôt: bash
+- Copier le code : git clone https://github.com/RayaneUPEC/GUI-Robotics
 cd mujoco-gui
-Exécuter l'Application:
-bash
+- Exécuter l'Application: bash
 Copier le code
 python main.py
+
 Structure des Fichiers
-main.py: Point d'entrée principal pour l'application.
-img/: Répertoire contenant les images utilisées dans l'interface.
-css/: Répertoire contenant les styles CSS pour l'interface.
+- main.py: Point d'entrée principal pour l'application.
+- img/: Répertoire contenant les images utilisées dans l'interface.
+- css/: Répertoire contenant les styles CSS pour l'interface.
 
 Améliorations Futures# GUI-Robotics
