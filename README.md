@@ -10,7 +10,7 @@ L'interface est construite avec PyQt5 et intègre Matplotlib pour l'affichage et
 - Écran d'accueil: Affiche un écran introductif avec une image et des boutons pour ouvrir l'interface principale ou fermer l'application.
 - Interface Principale (MuJoCoApp)
 
-2) Onglet Simulation:
+2) Onglet Simulation :
 
 - Visualisation 3D/2D: Affiche les positions et mouvements des articulations en 3D et 2D.
 - Valeurs des Articulations: Affiche les valeurs actuelles des positions de chaque articulation.
@@ -19,7 +19,7 @@ L'interface est construite avec PyQt5 et intègre Matplotlib pour l'affichage et
 - Affichage d'Action: Affiche l'action en cours de simulation.
 - Boutons de Contrôle: Boutons pour démarrer et arrêter la simulation.
   
-3) Onglet Mouvement:
+3) Onglet Mouvement :
 
 - Charger CSV: Charger des données de mouvement à partir d'un fichier CSV.
 - Enregistrer CSV: Enregistrer les données de mouvement actuelles dans un fichier CSV.
@@ -31,12 +31,12 @@ L'interface est construite avec PyQt5 et intègre Matplotlib pour l'affichage et
 - Réconversion et Confirmation: Boutons pour la réconversion et la confirmation des réglages de contrôle du mouvement.
 - Zone de Traçage: Visualise les données de contrôle du mouvement.
 
-4) Onglet Données:
+4) Onglet Données :
 
 - Matplotlib Canvas: Zone de traçage pour visualiser les données des articulations à partir des fichiers CSV.
 - Bouton de Sortie: Fermer l'application.
   
-5) Onglet Données Graphiques:
+5) Onglet Données Graphiques :
 
 - Sélecteur d'Articulation: Menu déroulant pour sélectionner une articulation spécifique à visualiser.
 - Matplotlib Canvas: Zone de traçage pour visualiser les données de l'articulation sélectionnée.
@@ -52,14 +52,14 @@ L'interface est construite avec PyQt5 et intègre Matplotlib pour l'affichage et
 - Zoom et Déplacement: Permet de zoomer et de déplacer la visualisation pour une inspection détaillée.
 - Installation et Configuration
   
-6) Dépendances: Assurez-vous d'avoir Python 3.x installé avec les packages suivants:
+6) Dépendances : Assurez-vous d'avoir Python 3.x installé avec les packages suivants:
    
 - PyQt5
 - Matplotlib
 - Pandas
 - NumPy
 
-7) Clonage:
+7) Clonage :
    
 - Cloner le Dépôt: bash
 - Copier le code : git clone https://github.com/RayaneUPEC/GUI-Robotics
@@ -68,7 +68,7 @@ cd mujoco-gui
 Copier le code
 python main.py
 
-Structure des Fichiers
+8) Structure des Fichiers
 
 - main.py: Point d'entrée principal pour l'application.
 - img/: Répertoire contenant les images utilisées dans l'interface.
