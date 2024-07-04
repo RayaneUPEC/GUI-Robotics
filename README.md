@@ -1,4 +1,4 @@
-## GUI_robotics ##
+                                                            ## GUI_robotics ##
 Interface Graphique (Graphical User Interface)
 Ce projet est une interface graphique (GUI) pour visualiser et simuler les mouvements des articulations en utilisant le moteur de physique MuJoCo. 
 
