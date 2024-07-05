@@ -59,7 +59,7 @@ class MainView(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.setWindowTitle('MuJoCo GUI (Graphical User Interface / 그래픽 사용자 인터페이스)')
+        self.setWindowTitle(' GUI (Graphical User Interface / 그래픽 사용자 인터페이스)')
         self.setGeometry(100, 100, 1400, 900)
 
         layout = QVBoxLayout()
