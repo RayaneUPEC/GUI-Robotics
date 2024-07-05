@@ -1,6 +1,6 @@
 ## GUI_robotics ##
 Interface Graphique (Graphical User Interface)
-Ce projet est une interface graphique (GUI) pour visualiser et simuler les mouvements des articulations en utilisant le moteur de physique MuJoCo. 
+Ce projet est une interface graphique (GUI) pour visualiser et simuler les mouvements des articulations. 
 
 L'interface est construite avec PyQt5 et intègre Matplotlib pour l'affichage et la visualisation des données. Les principales fonctionnalités incluent le contrôle de la simulation, la visualisation des données, les réglages de contrôle du mouvement et la détection de défauts.
 
